@@ -1,0 +1,31 @@
+{
+  "name": "nuradio-server",
+  "version": "0.0.1",
+  "description": "NodeJS based, Icecast compatible streaming server ",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon -e ts -w ./src -w ./plugins -x npm run watch:serve",
+    "watch:serve": "ts-node src/run.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NURadio/nuradio-server.git"
+  },
+  "author": "mr-kul <mrkul@mrkul.pw>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NURadio/nuradio-server/issues"
+  },
+  "homepage": "https://github.com/NURadio/nuradio-server#readme",
+  "dependencies": {
+    "@types/express": "^4.11.0",
+    "@types/node": "^9.3.0",
+    "@types/socket.io": "^1.4.31",
+    "express": "^4.16.2",
+    "icy": "^2.1.0",
+    "nodemon": "^1.14.11",
+    "socketio": "^1.0.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}

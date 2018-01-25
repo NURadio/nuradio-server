@@ -1,2 +1,2 @@
 # nuradio-server
-NodeJS based, Icecast compatible streaming server
+A simple server to serve metadata and more for NURadio
