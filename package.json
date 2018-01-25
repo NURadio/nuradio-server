@@ -22,10 +22,7 @@
     "@types/node": "^9.3.0",
     "@types/socket.io": "^1.4.31",
     "express": "^4.16.2",
-    "icy": "^2.1.0",
-    "nodemon": "^1.14.11",
     "socketio": "^1.0.0",
-    "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
   }
 }
